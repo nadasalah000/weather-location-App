@@ -1,0 +1,38 @@
+@media only screen and (max-width: 250px){
+   .forecast-cards .card .card-header {
+      padding: 7px 10px;
+      font-size: 8px;
+      font-weight: 300;
+    }
+    .card .card-body .degree {
+      font-size: 10px;
+      font-weight: 400;
+    }
+    .card .card-data ul li span {
+      font-size: 8px;
+      font-weight: 400;
+    }
+    .card.active .card-header {
+      font-size: 12px;
+      font-weight: 300;
+    }
+    .card.active .card-body .degree {
+      font-size: 20px;
+    }
+    .icon{
+      font-size: 15px;
+    }
+    .container header {
+      flex-direction: column;
+    }
+    .location{
+       font-size: 10px;
+    }
+   .card .card-data ul li {
+      font-size: 8px;
+  }
+  .up{
+   display: flex;
+   flex-direction: column;
+  }
+}
