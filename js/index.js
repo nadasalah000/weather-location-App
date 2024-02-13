@@ -13,9 +13,7 @@ const recentCities = JSON.parse(localStorage.getItem("cities")) || []
 
 // ^ Functions
 async function getWeather(location) {
-  const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=fe0919367ee04d42aa9181628233012&q=${location}&days=7`);
-  
-
+  const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fe0919367ee04d42aa9181628233012&q=${location}&days=7`);
   const data = await response.json();
   displayWeather(data)
   searchBox.value = ""
